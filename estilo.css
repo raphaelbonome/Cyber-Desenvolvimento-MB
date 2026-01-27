@@ -3,6 +3,11 @@
 * {
     box-sizing: border-box;
 }
+p, h1, h2 {
+  overflow-wrap: break-word;  /* Força a quebra de palavras longas */
+  word-wrap: break-word;
+  hyphens: auto;              /* Adiciona hífen se necessário (opcional) */
+}
 
 body, html {
     color: #100F5B;
